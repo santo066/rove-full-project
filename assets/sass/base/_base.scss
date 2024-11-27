@@ -1,0 +1,163 @@
+/* author css */
+body {
+    margin: 0;
+    color: $primary-color;
+    font-size: 18px;
+    font-family: $primary-font;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 120px;
+    font-weight: 500;
+    text-transform: uppercase;
+    span {
+        font-family: $secondary-font;
+        text-transform: capitalize;
+    }
+    @include all-phone {
+        font-size: 42px;
+    }
+
+    @include screen-1400{
+        font-size: 96px;
+    }
+    @include screen-1200{
+        font-size: 78px;
+    }
+    @include desktop{
+        font-size: 60px;
+    }
+    @include tablet{
+        font-size: 78px;
+    }
+    @include landscape-phone{
+        font-size: 52px;
+    }
+    @include portrait-phone{
+        font-size: 37px;
+    }
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: 500;
+    text-transform: uppercase;
+    span {
+        font-family: $secondary-font;
+        text-transform: capitalize;
+    }
+    @include all-phone {
+        font-size: 36px;
+    }
+    @include screen-360 {
+        font-size: 22px;
+    }
+    @include tablet {
+        font-size: 48px;
+    }
+    @include desktop{
+        font-size: 48px;
+    }
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+    @include all-phone {
+        font-size: 30px;
+    }
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 400;
+    @include all-phone {
+        font-size: 24px;
+    }
+    @include tablet {
+        font-size: 24px;
+    }
+    @include desktop {
+        font-size: 28px;
+    }
+    
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    @include all-phone {
+        font-size: 20px;
+    }
+    @include screen-360 {
+        font-size: 18px;
+    }
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 400;
+    @include all-phone {
+        font-size: 16px;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $primary-color;
+    font-family: $primary-font;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    color: $primary-color;
+    margin-top: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: $primary-color;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+select:focus,
+button:focus,
+.slick-slide {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
